@@ -1,0 +1,24 @@
+{
+  "name": "ui5.walkthrough",
+  "version": "1.0.0",
+  "description": "The UI5 walkthrough application",
+  "homepage": "https://github.com/IrakliAmbroladze/sapui5-task1#readme",
+  "bugs": {
+    "url": "https://github.com/IrakliAmbroladze/sapui5-task1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrakliAmbroladze/sapui5-task1.git"
+  },
+  "license": "ISC",
+  "author": "Irakli Ambroladze",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ui5 serve -o index.html"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^4.0.33"
+  }
+}
