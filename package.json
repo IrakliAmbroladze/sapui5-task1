@@ -13,7 +13,7 @@
   "license": "ISC",
   "author": "Irakli Ambroladze",
   "type": "module",
-  "main": "index.js",
+  "main": "webapp/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ui5 serve -o index.html"
