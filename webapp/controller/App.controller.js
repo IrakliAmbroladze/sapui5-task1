@@ -5,6 +5,7 @@ sap.ui.define(
 
     return Controller.extend("ui5.walkthrough.controller.App", {
       onShowHello() {
+        // read msg from i18n model
         const oBundle = this.getView().getModel("i18n").getResourceBundle();
         const sRecipient = this.getView()
           .getModel()
