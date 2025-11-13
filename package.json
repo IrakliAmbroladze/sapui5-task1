@@ -16,10 +16,13 @@
   "main": "webapp/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ui5 serve -o test/mockServer.html"
+    "start": "ui5 serve -o test/mockServer.html",
+    "build": "ui5 build --all --clean-dest",
+    "serve-dist": "ws --compress -d dist --open"
   },
   "devDependencies": {
     "@ui5/cli": "^4.0.33",
+    "local-web-server": "^5.4.0",
     "ui5-middleware-simpleproxy": "^3.5.2"
   }
 }
